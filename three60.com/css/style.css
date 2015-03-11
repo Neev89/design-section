@@ -750,6 +750,52 @@ ul.list-unstyled {
     border: 1px solid #EDEDED;
     border-radius: 5px;
 }
+.feedbacks {
+    margin: 0 0 20px;
+    padding: 20px 0 50px;
+    background: #f6f6f6 url(../images/image-1.png) no-repeat center center fixed;
+    background-size: cover;
+    border: 1px solid #ccc;
+}
+.headline-lg {
+    margin: 30px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    border-bottom: 1px dashed #fff;
+}
+.feedback {
+    margin: 20px 0 10px;
+}
+.feedback > i {
+    float: left;
+    color: #fff;
+    margin-right: 15px;
+}
+.feedback > div {
+    position: relative;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 6px;
+}
+.feedback > div > p {
+    padding: 10px 20px;
+    background: white;
+    border: white;
+    border-radius: 0 4px 4px;
+    -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.175);
+}
+.feedback > div > p:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 20px solid white;
+    border-left: 30px solid transparent;
+}
 
 
 

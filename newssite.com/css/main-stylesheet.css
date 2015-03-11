@@ -2061,12 +2061,20 @@ p .required {
 	opacity: 0;
 	left: -40px;
 }
+.gallery-widget .gallery-photo > a.slide-left  i{
+    color: #fff;
+    margin-top: 80px;
+}
 
 .gallery-widget .gallery-photo > a.slide-right {
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
 	opacity: 0;
 	right: -40px;
+}
+.gallery-widget .gallery-photo > a.slide-right i {
+    color: #fff;
+    margin-top: 80px;
 }
 
 .gallery-widget h4 {
@@ -3038,3 +3046,4 @@ html[xmlns] .slides {display: block;}
     background-color: rgba(20,57,102, .9) !important;
     background-color: rgb(20,57,102)\0/ !important;
 }
+
