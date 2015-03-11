@@ -74,8 +74,8 @@
 }
 .da-slide .da-img{
 	text-align: center;
-	width: 30%;
-	top: 70px;
+	width: 40%;
+	top: 50px;
 	height: 256px;
 	line-height: 320px;
 	left: 110%; /*60%*/
@@ -146,7 +146,7 @@
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
-	background: #e4b42d;
+	background: #626262;
 	cursor: pointer;
 	z-index: 2000;
 	opacity: 0;
