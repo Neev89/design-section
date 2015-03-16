@@ -864,7 +864,7 @@ blockquote footer {
     font-size: 1.4em;
     font-weight: 500;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(132, 132, 132, 1);
     padding: 6px 0px;
     color: #fff;
     width: 32px;
@@ -879,7 +879,7 @@ blockquote footer {
     font-size: 1.4em;
     font-weight: 500;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(132, 132, 132, 1);
     padding: 6px 0px;
     color: #fff;
     width: 32px;

@@ -796,6 +796,10 @@ ul.list-unstyled {
     border-top: 20px solid white;
     border-left: 30px solid transparent;
 }
+.fancybox-overlay.fancybox-overlay-fixed{
+    opacity: 0.7;
+    background-color: rgb(119, 119, 119);
+}
 
 
 
