@@ -185,7 +185,6 @@ a:focus {
 /* #2 Main header */
 
 .header {
-	background-color: #F0EFEF;
 	color: #fff;
 	box-shadow: inset 0px -140px 200px -50px rgba(0,0,0,0.15);
 }
@@ -2738,6 +2737,7 @@ a.hover-effect:hover .cover i:before {
 .main-menu {
 	position: relative;
 	z-index: 1000;
+    background: url('../images/header-bg.png');
 }
 
 .main-menu.sticky {
