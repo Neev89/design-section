@@ -103,7 +103,7 @@
         </div>
 
         <div class="field" id="searchform">
-                        <input type="text" id="searchterm" placeholder="Searh your project.." />
+                        <input type="text" id="searchterm" placeholder="Search your project.." />
                         <button type="button" id="search">Find!</button>
                     </div>
         <hr>
