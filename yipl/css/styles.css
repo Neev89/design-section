@@ -1,0 +1,279 @@
+/* override bootstrap styles */
+@import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+body {
+  padding-top:50px;
+  color: #717171;
+  background-color:#efefef;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer {
+  background-color:#cecece;
+}
+
+
+#masthead {
+  min-height:199px;
+  background-color:#51A90D;
+}
+
+#masthead h1 {
+  font-size: 40px;
+  line-height: 1;
+  color:#fefeff;
+  margin-top:50px;
+}
+
+#masthead .well {
+  margin-top:31px;
+  background-color:#111166;
+  border-color:#000022;
+  color:#efefff;
+  min-height:127px;
+}
+
+#topPanel {
+  padding-top:0px;
+  padding-left:22px;
+  padding-right:22px;
+}
+#topPanel .panel-body {
+  padding-top:0px;
+}
+
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+.top-spacer {
+    position: relative;
+    background-color: #ffffff;
+    height: 50px;
+    top: 12px;
+}
+
+a,a:hover {
+  color:#1ABC9C;
+  text-decoration:none;
+}
+
+.icon-bar {
+  background-color:#fff;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+
+.navbar-bright {
+  background-color:#838383;
+  color:#fff;
+  margin-bottom: 0;
+  border-width: 0;
+}
+
+.navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
+  color:#fff;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing:.08em;
+}
+
+.navbar-bright li > a:hover {
+  background-color:#000044;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+  border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:#fff;
+}
+
+.panel {
+  border-color:transparent;
+  border-radius:0;
+  margin-bottom: 0px;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+.tl-justify{
+    line-height: 1.8;
+}
+.project-list ul,.project-list ul li{
+    display: block;
+}
+.allprojects .pagination>.active>a{
+    color: #fff;
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+.allprojects .pagination>li>a{
+    color: #1ABC9C;
+}
+
+/* Overwrite css */
+.grid figcaption {
+    padding: 0px;
+    text-align: left;
+    height: 155px;
+}
+.list-group-item {
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    border-radius: 0px;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+* {
+    margin:0;
+    padding:0;
+    font:12pt Arial;
+}
+.field {
+    display:flex;
+    position:realtive;
+    margin:5em auto;
+    width:70%;
+    flex-direction:row;
+    box-shadow:
+    1px 1px 0 rgb(22, 160, 133),
+    2px 2px 0 rgb(22, 160, 133),
+    3px 3px 0 rgb(22, 160, 133),
+    4px 4px 0 rgb(22, 160, 133),
+    5px 5px 0 rgb(22, 160, 133),
+    6px 6px 0 rgb(22, 160, 133),
+    7px 7px 0 rgb(22, 160, 133)
+;
+}
+
+.field>input[type=text],
+.field>button {
+    display:block;
+    font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+    flex:1;
+    padding:0.6em;
+    border:0.2em solid rgb(26, 188, 156);
+}
+
+.field>button {
+    padding:0.6em 0.8em;
+    background-color:rgb(26, 188, 156);
+    color:white;
+    border:none;
+}
+
+.list-projects{
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+.project-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.grid-wrap .grid li p{
+    color: #fff;
+}
+.list-group-item .decs-projects{
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 18px;
+}
+.abc{
+    border: 1px solid #cacaca;
+    padding: 5px 10px;
+}
+.abc span{
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 18px;
+}
+.grid-gallery figcaption h3{
+    padding: 10px 0 0.5em;
+    background: #838383;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.allprojects{
+    margin-top: 20px;
+}
+.mgleft-400{
+    margin-left: 400px;
+}
+.design-h5{
+    font-size: 30px;color: #1ABC9C;  margin-bottom: 50px;
+}
+
+
